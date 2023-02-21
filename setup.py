@@ -15,6 +15,7 @@ setup(
     install_requires=[
         "OpenAIAuth==0.3.2",
         "requests",
+        "tiktoken",
     ],
     extras_require={
         "unofficial": [
